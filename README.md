@@ -1,6 +1,3 @@
-# Diabetes-Predction-with-SVM
-
-
 # Diabetes Prediction System
 
 A web application to predict the likelihood of diabetes based on user inputs using the **Pima Indians Diabetes Database** and a machine learning model trained with the dataset.
@@ -59,17 +56,23 @@ The target output:
 
 ---
 
-## Usage
+## Model Training
 
-1. Run the Flask app:
-   ```bash
-   python app.py
-   ```
-2. Open your browser and navigate to:
-   ```
-   http://127.0.0.1:5000/
-   ```
-3. Fill in the form with the required details and click **Predict** to see the results.
+The following Python libraries and steps were used to train the machine learning model:
+
+### Libraries Used
+- NumPy
+- pandas
+- scikit-learn (StandardScaler, train_test_split, SVM, accuracy_score)
+- pickle
+
+### Training Steps
+1. Load and preprocess the dataset.
+2. Split the data into training and testing sets using `train_test_split`.
+3. Standardize the feature set using `StandardScaler`.
+4. Train a Support Vector Machine (SVM) model.
+5. Evaluate the model's accuracy using `accuracy_score`.
+6. Save the trained model and scaler using `pickle` for later use in predictions.
 
 ---
 
