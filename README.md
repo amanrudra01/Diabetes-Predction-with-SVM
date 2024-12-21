@@ -97,10 +97,13 @@ project/
 ## Screenshots
 
 ### Input Form:
-![Input Form](https://via.placeholder.com/800x400?text=Add+your+form+screenshot)
+
+<img width="1708" alt="image" src="https://github.com/user-attachments/assets/ae06fc3b-4d4c-4672-9e0e-7745c51fe9d5" />
+
 
 ### Prediction Result:
-![Prediction Result](https://via.placeholder.com/800x400?text=Add+your+result+screenshot)
+
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/f10abda7-d280-4d2b-9d46-89d8c4b3b673" />
 
 ---
 
@@ -108,10 +111,4 @@ project/
 
 - **Dataset**: [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 - **Developed By**: Aman Chand
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
